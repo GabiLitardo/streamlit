@@ -12,10 +12,12 @@ plt.plot(V, 1e6*I)
 plt.xlabel("V [V]")
 plt.ylabel(r"I [$\mu$A]")
 
+st.pyplot(fig1)
+
 fig2 = plt.figure()
 plt.title("Transferencia")
 plt.plot(V, 1e6*I, color = "red")
 plt.xlabel("V [V]")
 plt.ylabel(r"I [$\mu$A]")
 
-st.pyplot(fig)
+st.pyplot(fig2)
