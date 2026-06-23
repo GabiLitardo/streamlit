@@ -16,7 +16,7 @@ st.pyplot(fig1)
 
 st.html("<br><br>")
 
-if st.button("Mostrar gráfico alternativo (Rojo)"):
+if st.checkbox("Mostrar gráfico alternativo (Rojo)"):
     fig2 = plt.figure()
     plt.title("Transferencia")
     plt.plot(V, 1e6*I, color = "red")
